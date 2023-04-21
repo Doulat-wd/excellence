@@ -1,0 +1,75 @@
+.contactheading{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+#mainDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15%;
+    flex-wrap: wrap;
+    padding-bottom: 15%;
+}
+#emailDiv{
+    width: 33%;
+    padding: 5px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#addressDiv{
+    width: 33%;
+    padding: 5px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#PhoneDiv{
+    width: 30%;
+    padding: 5px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contactInfo{
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.imageinfo{
+    width: 180px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 100%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #emailDiv,#PhoneDiv,#addressDiv {
+      width: 40%;
+      
+    }
+   #mainDiv{
+justify-content: space-around;
+   }
+  }
+  @media only screen and (max-width: 800px) {
+    #emailDiv,#PhoneDiv,#addressDiv {
+      width: 60%;
+      
+    }
+   #mainDiv{
+justify-content: space-around;
+   }
+   .contactInfo{
+    font-size: 16px;
+   }
+  }
+

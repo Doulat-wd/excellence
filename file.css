@@ -1,0 +1,137 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+  
+  }
+
+.headingEverySec{
+   padding-top: 100px;
+   text-align: center;
+   font-weight: 600;
+   font-size: 45px;
+}
+/* first div */
+#sirRamImage{
+    padding: 10px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sirRamImage>img{
+    border-radius: 5px;
+    max-width: 100%;
+    min-width: auto;
+}
+#FirstDiv{
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#Firstdivimage{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#FirstImage{
+    width: 100%;
+border-radius: 5px;
+    
+}
+#FirstdivText{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#FirstIntroText{
+    font-size: 22px;
+    text-align: justify;
+}
+#ourtrainingmiss{
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    #FirstDiv {
+      display: block;
+    }
+    #FirstdivText{
+      width: 100%;
+    }
+    #Firstdivimage{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+
+
+
+
+
+
+  #ourtrainingmiss1{
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+   
+  }
+  #Seconddiv{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #Secondinner{
+    padding: 10px;
+    padding-top: 40px;
+    width: 80%;
+    height: auto;
+  }
+#ReasonDiv{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+#ReasonDivArrow{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ReasonDivArrow>img{
+    width: 40%;
+}
+#ReasonDivtext{
+    width: 90%;
+    font-size: 17px;
+    text-align: justify;
+}
+
+#AboutSection{
+  padding: 20px;
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 50px;
+}
+#AboutSection > p{
+width: 70%;
+}
+#AboutSection>ul{
+  width: 70%;
+}

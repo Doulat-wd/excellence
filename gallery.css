@@ -1,0 +1,14 @@
+.imagesGallery{
+    padding: 10px;
+    padding-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagesGallery>img{
+    width: 30%;
+    padding: 10px;
+   
+    
+}

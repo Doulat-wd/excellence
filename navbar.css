@@ -1,0 +1,42 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+#Logo{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 1%;
+}
+.navbar-brand{
+  margin-left: 10%;
+  color: white ;
+}
+.navbar-brand:hover{
+  margin-left: 10%;
+  color: white ;
+}
+.nav-link{
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+font-weight: 400;
+}
+.nav-link:hover{
+  background-color: white;
+color: blue;
+border-radius: 2px;
+}
+.bg-body-tertiary{
+  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+position: fixed;
+width: 100%;
+
+}
+
+.navbar-nav{
+  /* width: 100%; */
+  padding-left: 50%;
+  
+}
